@@ -1,0 +1,46 @@
+{
+  "_readme": "Copy this file to upload.config.json and fill every field. Never commit upload.config.json to git.",
+
+  "youtube": {
+    "email": "YOUR_YOUTUBE_EMAIL@gmail.com",
+    "pass":  "YOUR_YOUTUBE_APP_PASSWORD"
+  },
+
+  "google": {
+    "api_key":     "YOUR_GOOGLE_API_KEY",
+    "model_parse": "gemini-3.5-flash-lite",
+    "model_seo":   "gemini-3.5-flash-lite",
+    "model_viral": "gemini-3.5-flash-lite",
+    "_model_note": "If mistral-small-4-119b-2603 is unavailable on your account, set all three to meta/llama-3.3-70b-instruct"
+  },
+
+  "paths": {
+    "_help":           "Use absolute paths on Windows (double backslashes) or forward slashes",
+    "script":          "./pod1.docx",
+    "video_folder":    "./final",
+    "uploaded_folder": "./uploaded"
+  },
+
+  "reddit": {
+    "client_id":     "YOUR_REDDIT_CLIENT_ID",
+    "client_secret": "YOUR_REDDIT_CLIENT_SECRET",
+    "user_agent":    "your-app-name/1.0 by YourRedditUsername"
+  },
+
+  "Youtube_API": {
+    "api_key": "YOUR_YOUTUBE_DATA_API_KEY"
+  },
+
+  "upload": {
+    "_visibility_note": "IMPORTANT: Before first run, go to YouTube Studio → Settings → Upload defaults → set Visibility to Public",
+    "channel_name":      "YOUR_CHANNEL_NAME",
+    "language":          "english",
+    "publish_type":      "PUBLIC",
+    "is_age_restriction": false,
+    "is_not_for_kid":    true
+  },
+
+  "video_idea": {
+    "title": "YOUR_VIDEO_TITLE_HERE"
+  }
+}
